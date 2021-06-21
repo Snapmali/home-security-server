@@ -1,0 +1,22 @@
+stream:
+  apiurl: "http://localhost:8090"
+
+mysql:
+  addr: "localhost:3306"
+  database: "home_security"
+  user: "root"
+  password: "root"
+
+redis:
+  addr: "localhost:6379"
+  databases:
+    token: 0
+    verificationcode: 2
+    register: 1
+  password: ""
+email:
+  user: "no-reply@sample.com"
+  password: "email password"
+  name: "email username"
+  host: "smtp.sample.com"
+  port: 465
